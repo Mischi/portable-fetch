@@ -1,7 +1,7 @@
 isomorphic-fetch [![Build Status](https://travis-ci.org/matthew-andrews/isomorphic-fetch.svg?branch=master)](https://travis-ci.org/matthew-andrews/isomorphic-fetch)
 ================
 
-Fetch for node and Browserify.  Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
+Fetch for node and Browserify. Also works in Webpack and React-Native Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
 
 ## Warnings
 
@@ -18,20 +18,14 @@ For [ease-of-maintenance and backward-compatibility reasons][why polyfill], this
 ### NPM
 
 ```sh
-npm install --save isomorphic-fetch es6-promise
-```
-
-### Bower
-
-```sh
-bower install --save isomorphic-fetch es6-promise
+npm install --save portable-fetch es6-promise
 ```
 
 ## Usage
 
 ```js
 require('es6-promise').polyfill();
-require('isomorphic-fetch');
+require('portable-fetch');
 
 fetch('//offline-news-api.herokuapp.com/stories')
 	.then(function(response) {

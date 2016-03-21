@@ -1,8 +1,9 @@
 {
-  "name": "isomorphic-fetch",
-  "version": "0.0.0",
-  "description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
+  "name": "portable-fetch",
+  "version": "2.3.0",
+  "description": "Isomorphic WHATWG Fetch API, for Node, Browserify, Webpack & React-Native",
   "browser": "fetch-npm-browserify.js",
+  "react-native": "fetch-npm-react-native.js",
   "main": "fetch-npm-node.js",
   "scripts": {
     "files": "find . -name '*.js' ! -path './node_modules/*' ! -path './bower_components/*'",
@@ -10,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+    "url": "https://github.com/knotis/isomorphic-fetch.git"
   },
   "author": "Matt Andrews <matt@mattandre.ws>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+    "url": "https://github.com/knotis/isomorphic-fetch/issues"
   },
-  "homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+  "homepage": "https://github.com/knotis/isomorphic-fetch/issues",
   "dependencies": {
     "node-fetch": "^1.0.1",
     "whatwg-fetch": ">=0.10.0"
