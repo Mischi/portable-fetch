@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/knotis/isomorphic-fetch/issues",
   "dependencies": {
-    "node-fetch": "^1.0.1",
+    "node-fetch": "^2.0.0",
     "whatwg-fetch": ">=0.10.0"
   },
   "devDependencies": {
